@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06A1C6E714316946001FF256 /* SuperSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A1C6E514316945001FF256 /* SuperSlider.m */; };
+		06ACD38614305203002949DF /* 0eetI.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06ACD38514305203002949DF /* 0eetI.jpg */; };
 		06BFDF85142FFC82002C59CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06BFDF84142FFC82002C59CD /* UIKit.framework */; };
 		06BFDF87142FFC82002C59CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06BFDF86142FFC82002C59CD /* Foundation.framework */; };
 		06BFDF89142FFC82002C59CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06BFDF88142FFC82002C59CD /* CoreGraphics.framework */; };
@@ -16,23 +18,29 @@
 		06BFDF98142FFC82002C59CD /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BFDF96142FFC82002C59CD /* MainWindow.xib */; };
 		06BFDF9B142FFC82002C59CD /* RadialDialDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BFDF9A142FFC82002C59CD /* RadialDialDemoViewController.m */; };
 		06BFDF9E142FFC82002C59CD /* RadialDialDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06BFDF9C142FFC82002C59CD /* RadialDialDemoViewController.xib */; };
+		06BFDFA6142FFD03002C59CD /* RadialDial.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BFDFA5142FFD03002C59CD /* RadialDial.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06A1C6E414316945001FF256 /* SuperSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperSlider.h; sourceTree = "<group>"; };
+		06A1C6E514316945001FF256 /* SuperSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperSlider.m; sourceTree = "<group>"; };
+		06ACD38514305203002949DF /* 0eetI.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0eetI.jpg; sourceTree = "<group>"; };
 		06BFDF80142FFC82002C59CD /* RadialDialDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadialDialDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06BFDF84142FFC82002C59CD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		06BFDF86142FFC82002C59CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		06BFDF88142FFC82002C59CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		06BFDF8C142FFC82002C59CD /* RadialDialDemo-Info.plist */ = {isa = PBXFileReference; path = "RadialDialDemo-Info.plist"; sourceTree = "<group>"; };
+		06BFDF8C142FFC82002C59CD /* RadialDialDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RadialDialDemo-Info.plist"; sourceTree = "<group>"; };
 		06BFDF8E142FFC82002C59CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		06BFDF90142FFC82002C59CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		06BFDF92142FFC82002C59CD /* RadialDialDemo-Prefix.pch */ = {isa = PBXFileReference; path = "RadialDialDemo-Prefix.pch"; sourceTree = "<group>"; };
-		06BFDF93142FFC82002C59CD /* RadialDialDemoAppDelegate.h */ = {isa = PBXFileReference; path = RadialDialDemoAppDelegate.h; sourceTree = "<group>"; };
+		06BFDF92142FFC82002C59CD /* RadialDialDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RadialDialDemo-Prefix.pch"; sourceTree = "<group>"; };
+		06BFDF93142FFC82002C59CD /* RadialDialDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadialDialDemoAppDelegate.h; sourceTree = "<group>"; };
 		06BFDF94142FFC82002C59CD /* RadialDialDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadialDialDemoAppDelegate.m; sourceTree = "<group>"; };
 		06BFDF97142FFC82002C59CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		06BFDF99142FFC82002C59CD /* RadialDialDemoViewController.h */ = {isa = PBXFileReference; path = RadialDialDemoViewController.h; sourceTree = "<group>"; };
+		06BFDF99142FFC82002C59CD /* RadialDialDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadialDialDemoViewController.h; sourceTree = "<group>"; };
 		06BFDF9A142FFC82002C59CD /* RadialDialDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadialDialDemoViewController.m; sourceTree = "<group>"; };
 		06BFDF9D142FFC82002C59CD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RadialDialDemoViewController.xib; sourceTree = "<group>"; };
+		06BFDFA4142FFD03002C59CD /* RadialDial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadialDial.h; sourceTree = "<group>"; };
+		06BFDFA5142FFD03002C59CD /* RadialDial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadialDial.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,7 @@
 		06BFDF8A142FFC82002C59CD /* RadialDialDemo */ = {
 			isa = PBXGroup;
 			children = (
+				06ACD38514305203002949DF /* 0eetI.jpg */,
 				06BFDF93142FFC82002C59CD /* RadialDialDemoAppDelegate.h */,
 				06BFDF94142FFC82002C59CD /* RadialDialDemoAppDelegate.m */,
 				06BFDF96142FFC82002C59CD /* MainWindow.xib */,
@@ -86,6 +95,10 @@
 				06BFDF9A142FFC82002C59CD /* RadialDialDemoViewController.m */,
 				06BFDF9C142FFC82002C59CD /* RadialDialDemoViewController.xib */,
 				06BFDF8B142FFC82002C59CD /* Supporting Files */,
+				06BFDFA4142FFD03002C59CD /* RadialDial.h */,
+				06BFDFA5142FFD03002C59CD /* RadialDial.m */,
+				06A1C6E414316945001FF256 /* SuperSlider.h */,
+				06A1C6E514316945001FF256 /* SuperSlider.m */,
 			);
 			path = RadialDialDemo;
 			sourceTree = "<group>";
@@ -151,6 +164,7 @@
 				06BFDF8F142FFC82002C59CD /* InfoPlist.strings in Resources */,
 				06BFDF98142FFC82002C59CD /* MainWindow.xib in Resources */,
 				06BFDF9E142FFC82002C59CD /* RadialDialDemoViewController.xib in Resources */,
+				06ACD38614305203002949DF /* 0eetI.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +178,8 @@
 				06BFDF91142FFC82002C59CD /* main.m in Sources */,
 				06BFDF95142FFC82002C59CD /* RadialDialDemoAppDelegate.m in Sources */,
 				06BFDF9B142FFC82002C59CD /* RadialDialDemoViewController.m in Sources */,
+				06BFDFA6142FFD03002C59CD /* RadialDial.m in Sources */,
+				06A1C6E714316946001FF256 /* SuperSlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,10 +259,14 @@
 		06BFDFA2142FFC82002C59CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Gordie Parke (8W48VGFY3W)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Gordie Parke (8W48VGFY3W)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RadialDialDemo/RadialDialDemo-Prefix.pch";
 				INFOPLIST_FILE = "RadialDialDemo/RadialDialDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D8F8CFF2-E24F-47F0-ACBB-1B9528DED7CC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D8F8CFF2-E24F-47F0-ACBB-1B9528DED7CC";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -254,10 +274,14 @@
 		06BFDFA3142FFC82002C59CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Gordie Parke (8W48VGFY3W)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Gordie Parke (8W48VGFY3W)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RadialDialDemo/RadialDialDemo-Prefix.pch";
 				INFOPLIST_FILE = "RadialDialDemo/RadialDialDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D8F8CFF2-E24F-47F0-ACBB-1B9528DED7CC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D8F8CFF2-E24F-47F0-ACBB-1B9528DED7CC";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -281,6 +305,7 @@
 				06BFDFA3142FFC82002C59CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
